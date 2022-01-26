@@ -6,24 +6,40 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
         <body>
-            <nav>
+            <header class="head-pc">
                 <div class="logo">
-                    <img src="resources/images/ic-logo.svg" class="logo img" type="image/svg">
-                    <p id="colmar">colmar</p><p id="academy">academy</p>
+                    <img src="resources/images/ic-logo.svg" class="logo-img" type="image/svg">
+                    <span><strong>colmar</strong>academy</span>
                 </div>
-                <p>On campus</p>
-                <p>Online</p>
-                <p>or companies</p>
-                <p>Sign In</p>
-            </nav>
+                <nav class="nav-pc">
+                    <span>On campus</span>
+                    <span>Online</span>
+                    <span>or companies</span>
+                    <span>Sign In</span>
+                </nav>
+                <nav class="nav-mobile">
+                    <img src="resources/images/ic-logo.svg" class="logo-mobile-img" type="image/svg">
+                    <img src="resources/images/ic-on-campus.svg" class="campus-mobile-logo" type="image/svg">
+                    <img src="resources/images/ic-online.svg" class="online-mobile-logo" type="img/svg">
+                    <img src="resources/images/ic-login.svg" class="login-mobile" type="img/svg">
+                </nav>
+            </header>    
             <div class="learn">
                 <img src="resources/images/banner.jpg" alt="people studying" id="img1" type="image/jpg">
-                <h1>Learn something every day</h1>
-                <p class="latin">Lorem ipsum dolom sit amet, consectetur adipiscing elit.</p>
-                <p id="startbutton">Start Here</p>
+                <div class=text1>
+                    <h1>Learn something<br>every day</h1>
+                    <p class="latin">Lorem ipsum dolom sit amet,<br>consectetur adipiscing elit.</p>
+                    <input id="startbutton" type="button" value="Start here">
+                </div>
             </div>
             <div>
                 <div class="practice">
