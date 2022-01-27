@@ -67,7 +67,7 @@
     padding: 56px 48px;
 }
 
-#img1 {
+#img-one {
     width: 60%;
     height: auto;
 }
@@ -102,6 +102,124 @@
     justify-content: center;
     padding: 16px 0;
 }
+
+.container-one {
+    display: flex;
+}
+
+.practice-left {
+    display: flex;
+    padding: 56px 48px;
+    flex-direction: column;
+    border-right: 2px solid #d8d8d8;
+    width: 60%;
+
+}
+
+#img-two {
+    width: 100%;
+    height: auto;
+    padding-bottom: 48px;
+}
+
+.text2 h1 {
+    font-size: 56px;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.text2 p {
+    font-size: 24px;
+}
+
+.author {
+    padding-top: 64px;
+}
+
+.practice-right {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 40%;    
+}
+
+.practice-right h3 {
+    font-size: 32px;
+    padding: 8px 0;
+}
+
+.practice-right p{
+    font-size: 24px;
+    padding: 8px 0;
+}
+
+.practice-right a {
+    color: #3399cc;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.orientation {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.orientation img {
+    width: 35%;
+    padding: 24px;
+    display: inline-flex;
+}
+
+.text3 {
+    width: 65%;
+    align-self: center;
+}
+
+.campus {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #d8d8d8;
+}
+
+.campus img {
+    width: 35%;
+    padding: 24px;
+    display: inline-flex;
+}
+
+.text4 {
+    width: 65%;
+    align-self: center;
+}
+
+.guest {
+    display: flex;
+    width: 100%;
+    background-color: #d8d8d8;
+}
+
+.guest img {
+    width: 35%;
+    padding: 24px;
+    display: inline-flex;
+}
+
+.text5 {
+    width: 65%;
+    align-self: center;
+}
+
+.courses {
+    display: flex;
+    background-color: #d8d8d8;
+    flex-direction: column;
+}
+
+.software .computer-art .design .data .business .marketing {
+    display: inline-flex;
+}
+
 video {
     width: 60%;
     height: auto;
