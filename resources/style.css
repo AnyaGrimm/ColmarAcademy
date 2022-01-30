@@ -328,10 +328,67 @@ video {
     width: 40%;
 }
 
+.r h3 {
+    font-size: 32px;
+    padding: 8px 0;   
+}
+
+.r p {
+    font-size: 24px;
+    padding: 8px 0;   
+}
+
 .quote {
     line-height: 1.5;
 }
 
-.fisma {
+.fisma img {
+    display: inline-flex;
+    width: 35%;
+    padding: 24px;
+}
 
+.now img {
+    display: inline-flex;
+    width: 35%;
+    padding: 24px;
+}
+
+.fisma, .now {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    overflow: visible;
+}
+
+#text6, #text7 {
+    align-content: center;
+    width: 65%;
+}
+
+.fisma:hover, .now:hover {
+    background-color: #d8d8d8;
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+#copyright {
+    padding: 24px 0 72px 48px;
+    font-size: 18px;
+}
+
+.therms {
+    display: flex;
+    padding: 24px 48px 72px 0;
+    gap: 16px;
+}
+
+.therms a {
+    font-size: 18px;
 }
